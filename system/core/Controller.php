@@ -66,6 +66,8 @@ class CI_Controller {
 	 */
 	public $load;
 
+	public $benchmark, $hooks, $config, $log, $utf8, $uri, $router, $output, $security, $input, $lang;
+
 	/**
 	 * Class constructor
 	 *
